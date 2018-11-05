@@ -157,7 +157,7 @@ Memory usage: will depend on placement policy
 
 Note: implicit lists are not used in pracitce because of linear time allocation
 
-#Lecture 20
+# Lecture 20
 
 **Peak Memory Utilization**
 
@@ -264,7 +264,7 @@ Case 4: both predecessor and successor blocks are free
 
 > NOTE: struct of previous and next nodes for linked list
 
-##Segregated List Allocators
+## Segregated List Allocators
 
 Each size class of blocks has its own free list.
 

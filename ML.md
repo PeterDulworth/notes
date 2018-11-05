@@ -1,0 +1,5 @@
+Machine Learning is a class of algorithms which is data-driven, i.e. unlike "normal" algorithms it is the data that "tells" what the "good answer" is. Example: a hypothetical non-machine learning algorithm for face detection in images would try to define what a face is (round skin-like-colored disk, with dark area where you expect the eyes etc). A machine learning algorithm would not have such coded definition, but would "learn-by-examples": you'll show several images of faces and not-faces and a good algorithm will eventually learn and be able to predict whether or not an unseen image is a face.
+
+This particular example of face detection is **supervised**, which means that your examples must be *labeled*, or explicitly say which ones are faces and which ones aren't.
+
+In an **unsupervised** algorithm your examples are not *labeled*, i.e. you don't say anything. Of course, in such a case the algorithm itself cannot "invent" what a face is, but it can try to [cluster](http://en.wikipedia.org/wiki/Cluster_analysis) the data into different groups, e.g. it can distinguish that faces are very different from landscapes, which are very different from horses.

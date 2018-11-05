@@ -122,11 +122,11 @@ Four Cases:
 
 3. Previous block is free and next block is allocated:
 
-![case3](../notes/imgs/case3.png)
+![case3](../imgs/case3.png)
 
 4. Previous and next blocks are free:
 
-![case4](/Users/Peter/Documents/notes/imgs/case4.png)
+![case4](../imgs/case4.png)
 
 Which blocks need a boundry tag?
 

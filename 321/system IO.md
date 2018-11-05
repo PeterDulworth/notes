@@ -1,4 +1,4 @@
-#SYSTEM I/O (ch.10)
+# SYSTEM I/O (ch.10)
 
 A linux file is a sequence of $m$ bytes:
 
@@ -14,7 +14,7 @@ Even the kernal is represented as a file:
 - /boot/vmlinuz-3.13.0-55-generic (kernal image)
 - /proc (kernal data structures)
 
-####Simple interface called *unix I/O*:
+#### Simple interface called *unix I/O*:
 
 - opening and closing files: `open()` and `close()`
 - reading and writing files: `read()` and `write()`

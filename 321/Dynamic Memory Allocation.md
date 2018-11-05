@@ -42,7 +42,7 @@ Four Methods:
 
 For each block we need both size and allocation status (using two words would be wasteful).
 
-![implicitList](/Users/Peter/Documents/notes/imgs/implicitList.png)
+![implicitList](../imgs/implicitList.png)
 
 **Implicit List: Finding a free block:**
 
@@ -114,15 +114,15 @@ Four Cases:
 
 1. Previous and next block are allocated:
 
-![case1](/Users/Peter/Documents/notes/imgs/case1.png)
+![case1](../imgs/case1.png)
 
 2. Previous block is allocated and next block is free:
 
-![case2](/Users/Peter/Documents/notes/imgs/case2.png)
+![case2](../imgs/case2.png)
 
 3. Previous block is free and next block is allocated:
 
-![case3](/Users/Peter/Documents/notes/imgs/case3.png)
+![case3](../notes/imgs/case3.png)
 
 4. Previous and next blocks are free:
 
@@ -216,14 +216,14 @@ Reexamine four cases of freeing but with explicit list and the LIFO policy:
 
 Case 1: predecessor and successor blocks are allocated
 
-![explicit_case1](/Users/Peter/Documents/notes/imgs/explicit_case1.png)
+![explicit_case1](../imgs/explicit_case1.png)
 
 - update root of free list to point to newly freed block
 - update forward pointer of block to point to what used to be the first block
 
 Case 2: predecessor block is free, successor block is allocated
 
-![explicit_case2](/Users/Peter/Documents/notes/imgs/explicit_case2.png)
+![explicit_case2](../imgs/explicit_case2.png)
 
 - coalesce the freed block with the predecessor block
 - splice by updating the next pointer of its previous block point to its next block and by updating the previous pointer of its next block to point to its previous block
@@ -235,7 +235,7 @@ Case 2: predecessor block is free, successor block is allocated
 
 Case 3: predecessor block is allocated, sucessor block is free.
 
-![explicit_case3](/Users/Peter/Documents/notes/imgs/explicit_case3.png)
+![explicit_case3](../imgs/explicit_case3.png)
 
 - coalesce newly freed block with sucessor block
 - splice out block and insert at previous list similar to case two (completely symmetric).

@@ -2,7 +2,7 @@
 typora-copy-images-to: ../imgs
 ---
 
-#Dynamic Memory Allocators
+# Dynamic Memory Allocators
 
 **Fragmentation**
 
@@ -38,7 +38,7 @@ Four Methods:
 3. *Segregated Free List*: Different free lists for different size classes.
 4. *Blocks Sorted by Size*: Can use a balanced tree (e.g. Red-Black tree) with pointers within each free block, and the length used as a key.
 
-##Implicit List Implementation:
+## Implicit List Implementation:
 
 For each block we need both size and allocation status (using two words would be wasteful).
 

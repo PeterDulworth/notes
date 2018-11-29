@@ -26,9 +26,19 @@ pg 7 -> infinite loop "first time through"x1, "" x infinity
 
 
 
+```bash
+clang -Wall -Wextra -Werror program.c -o program
+
+create non optimized assembly
+gcc -Og -S file.c
+
+gcc -O -c main.c
+readelf -s main.o
+```
 
 
 
+gdb -tui for ui version of gdb
 
 
 

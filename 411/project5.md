@@ -17,6 +17,3 @@ NOTE: This unshadowing transformation should be applied just after parsing regar
 
 
 
-
-
-​	

@@ -18,15 +18,46 @@ i.e.
 
 
 
+**Simple Hypothesis** All the parameters are specified (e.g. mean, variance).
+
+**Composite Hypothesis** Not all the parameters are specified.
 
 
-**type i error** incorrectly accept alternative hypothesis (*false positive*)
 
-**type ii error** incorrectly reject the alternative hypothesis  (*false negative*)
+**Type i error** incorrectly accept alternative hypothesis (*false positive*).
+
+**Type ii error** incorrectly reject the alternative hypothesis  (*false negative*).
+
+
+
+The probability of a type I error is called the **significance level** of the test. The complement of the type I error probability is called the **confidence level** of the test.
 
 
 
 The region where we decide to reject $H_0$ is called the critical region. It is a subset of $\R ^n$ where $n$ is the number of samples.
+
+
+
+1. Guassian shift with common variance (assume $\sigma ^ 2 $ is known).
+2. Guassian shift with common *but unknown* variance: *t-test*.
+
+
+
+
+
+One sample $t$ test. (variance same but unknown)
+
+Paired $t$-test: data in form $(X_i, Y_i)$. ~ *7.18* ($\sigma ^2$ unknown)
+
+Two sample $t$-test.  (unknown but common variance)
+
+
+
+**What if parameters are unknown?**
+
+Modify the log-likelihood so that the unknonw parameters are replaced by MLE's (constrained).
+
+
 
 
 

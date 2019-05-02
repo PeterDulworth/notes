@@ -16,13 +16,15 @@ then what is the probability that you got the new results? if that probability i
 
 i.e.
 
+**Types of hypothesis**
+
+**Simple** All the parameters are specified (e.g. mean, variance).
+
+**Composite** Not all the parameters are specified.
 
 
-**Simple Hypothesis** All the parameters are specified (e.g. mean, variance).
 
-**Composite Hypothesis** Not all the parameters are specified.
-
-
+**Types of Error**
 
 **Type i error** incorrectly accept alternative hypothesis (*false positive*).
 
@@ -30,9 +32,13 @@ i.e.
 
 
 
+
+
 The probability of a type I error is called the **significance level** of the test. The complement of the type I error probability is called the **confidence level** of the test.
 
 
+
+**Critical Region**
 
 The region where we decide to reject $H_0$ is called the critical region. It is a subset of $\R ^n$ where $n$ is the number of samples.
 
@@ -101,5 +107,5 @@ Modify the log-likelihood so that the unknonw parameters are replaced by MLE's (
 
 1. Pearson Goodness of Fit
 2. Pearson test for Independance 
-3. Correlation Coefficient / Confidence Interval
-4. Linear Regression Confidence Intervals 
+   1. Correlation Co efficient / Confidence Interval
+3. Linear Regression Confidence Intervals 
